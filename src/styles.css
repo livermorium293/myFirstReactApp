@@ -1,0 +1,118 @@
+/* html {
+  height: 100%;
+} */
+
+body {
+  font-family: sans-serif;
+  /* height: 100%; */
+}
+
+input{
+  /* border-radius: 16px; */
+  /* border:blue; */
+  padding: 6px 16px;
+
+  border-radius: 3px; /*ボックス角の丸み*/
+    border: 2px solid #ddd; /*枠線*/
+    box-sizing: border-box; /*横幅の解釈をpadding, borderまでとする*/
+  /* outline: none; */
+}
+
+button{
+  /* width: 80%; */
+  font-weight: bold;
+  font-size: large;
+  color: rgb(2, 2, 2);
+  background-color: rgba(245, 245, 244,0);
+  /* border-radius: 16px; */
+  border: none;
+  padding: 4px 16px;
+}
+
+button:hover{
+  /* background-color: #ff7fff; */
+  color: rgb(2, 206, 104);
+  cursor: pointer;
+}
+
+.main{
+  /* width:100%; */
+  overflow: hidden;  
+  
+  
+}
+
+#navi{
+  /* text-align: center; */
+  float: left;
+  width: 19%;
+  /* background-color: #033cda; */
+  height: 100vh;
+  border-right-style: solid;
+  border-color: rgb(135, 135, 138);
+  border-width: 1px;
+  /* padding: 2px; */
+}
+
+#root{
+  float: left;
+  width: 79%;
+  padding-left: 1%;
+  /* background-color: blue; */
+}
+
+/* .navi-area{
+  background-color: #c1ffff;
+  width:20%;
+  height: 20%;
+  margin-left: 20%;
+  padding: 2px;
+  margin: 8px;
+  border-radius: 8px;
+} */
+
+.input-area{
+  /* background-color: #c1ffff; */
+  /* width:80%; */
+  height: 20%;
+  /* margin-left: 20%; */
+  padding: 2px;
+  /* margin: 8px; */
+  /* border-radius: 8px; */
+}
+
+.incomplete-area{
+  /* background-color: #c6ffe2; */
+  /* width:80%; */
+  height: 20%;
+  /* margin-left: 20%; */
+  padding: 2px;
+  /* border-radius: 8px; */
+}
+
+.complete-area{
+  /* background-color: #ffffe0; */
+  /* width:80%; */
+  height: 20%;
+  /* margin-left: 20%; */
+  padding: 2px;
+  /* border-radius: 8px; */
+}
+
+.title{
+  text-align: left;
+  margin-left: 10px;
+  font-weight: bold;
+  color: #666;
+}
+
+.list-row{
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
+}
+
+li {
+  margin-right: 8px;
+  margin-left: 8px;
+}
