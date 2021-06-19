@@ -78,7 +78,7 @@ export const App2 = () => {
 
   return (
     <>
-      <h1 style={{ color: "black" }}>Hello World</h1>
+      <h1 style={{ color: "black" }}>Google Map API Test</h1>
 
       <div className="map-area">
         <GoogleMapReact
@@ -95,11 +95,11 @@ export const App2 = () => {
       </div>
       {/* <ColorfulMessage color="black"> お元気ですよね?</ColorfulMessage>  */}
       {/* <ColorfulMessage color="pink"> 元気です</ColorfulMessage> */}
-      <button onClick={onClickButton}>カウントアップ</button>
+      {/* <button onClick={onClickButton}>カウントアップ</button>
       <button onClick={onClickSwithShowFlag}>on/off</button>
       <p>{num}</p>
       {ahoahoShowFlag && <p>あほあほ</p>}
-      <p>あほあほ</p>
+      <p>あほあほ</p> */}
 
     </>
   )

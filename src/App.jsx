@@ -31,9 +31,6 @@ export const App = () => {
     }
   }, [])
 
-
-
-
   const onClickAdd = () => {
     if (todoText === "") return;
     if (incompleteTodos.length < 5) {
